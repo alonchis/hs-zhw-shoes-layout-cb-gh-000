@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -112,6 +112,7 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+
 }
 
 .milk_text {
@@ -264,6 +265,43 @@ iframe {
 		text-decoration: underline;
 	}
 
+	#top_items{
+		margin-bottom: 10px;
+
+
+	}
+
+	#summer{
+		margin: 10px auto;
+		float:left;
+		width:60%;
+
+	}
+
+	#archive{
+			margin: 10px auto;
+		float:right;
+		width: 30%;
+
+	}
+
+	#shoes_image1{
+		width: 31.33%;
+		float:left;
+	}
+
+	#shoes_image2{
+		width: 31.33%;
+		margin-left: 3%;
+		float:left;
+	}
+
+	#shoes_image3{
+		width: 31.33%;
+		margin-left: 3%;
+		float:left;
+	}
+
 /********** Details **********/
 
 #details {
@@ -302,4 +340,13 @@ footer {
 		text-decoration: underline;
 	}
 
+
+	.clearfix:after{
+		content: ".";
+		display: block;
+		clear: both;
+		visibility: hidden;
+		height: 0;
+		line-height: 0;
+	}
 /* code examples copyright Jonathan Grover 2012 */
